@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+// 200 - Extralight
+// 400 - Regular
+// 600 - SemiBold
+
+.xs-text {
+    // text-preset-5
+    @include typography($font-family-primary, 0.813rem, 400, 160%, 0px);
+}
+
+.sm-text {
+    // text-preset-4
+    @include typography($font-family-primary, 0.938rem, 400, 140%, 0px);
+}
+
+.medium-text {
+    // text-preset-3
+    @include typography($font-family-primary, 1.25rem, 600, 135%, 0px);
+}
+
+.large-text {
+    // text-preset-2
+    @include typography($font-family-primary, 2.25rem, 200, 140%, 0.25px);
+}
+
+.extra-large-text {
+    // text-preset-1
+    @include typography($font-family-primary, 2.25rem, 600, 140%, 0.25px);
+}

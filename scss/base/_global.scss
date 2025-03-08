@@ -1,0 +1,14 @@
+body {
+    font-size: 0.938rem;
+    background-color: $white;
+}
+
+/* Ensure the body and html occupy the full viewport height */
+// html, body {
+//     margin: 0;
+//     padding: 0;
+//     height: 100%;
+//     display: flex;
+//     justify-content: center; /* Center content horizontally */
+//     align-items: center;    /* Center content vertically */
+//   }
